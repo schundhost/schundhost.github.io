@@ -4,7 +4,7 @@ let myFont;
 
 function setup() {
   createCanvas(800, 800);
-  frameRate(1);
+  frameRate(0.5);
   myFont = loadFont('fonts/PPTelegraf-Regular.otf');
   slider = createSlider(50, 200, 200);
   slider.style("transform", "rotate(-90deg)");
