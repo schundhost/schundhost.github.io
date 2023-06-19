@@ -9,11 +9,11 @@ function setup() {
   slider = createSlider(50, 200, 200);
   slider.style("transform", "rotate(-90deg)");
   slider.position(-180, 400);
-  slider.style('width', '400px');
+  slider.style('width', '250px');
   slider2 = createSlider(50, 200, 200);
   slider2.style("transform", "rotate(-90deg)");
   slider2.position(580, 400);
-  slider2.style('width', '400px');
+  slider2.style('width', '250px');
 }
 
 function draw() {
