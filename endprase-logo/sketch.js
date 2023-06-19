@@ -85,7 +85,9 @@ function drawQuads() {
       let nextPoint1 = circle1Points[nextIndex];
       let nextPoint2 = circle2Points[nextIndex];
       
-      fill(0)
+
+      fill(0,255,0)
+      noStroke()
       //noFill()
       quad(point1.x, point1.y, point2.x, point2.y, nextPoint2.x, nextPoint2.y, nextPoint1.x, nextPoint1.y);
     }
